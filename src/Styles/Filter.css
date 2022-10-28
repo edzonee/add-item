@@ -1,0 +1,27 @@
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 30px;
+  margin: 30px;
+}
+
+.category-item {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 810px) {
+  .btns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .btns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 30px;
+    }
+  }

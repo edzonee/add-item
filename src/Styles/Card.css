@@ -1,0 +1,14 @@
+.card-container {
+  height: 150px;
+  z-index: -1;
+  width: 300px;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 2px 2px 10px 2px gainsboro;
+}
+
+@media screen and (max-width: 500px) {
+  .card-container{
+    width: 200px;
+  }
+}
