@@ -6,7 +6,7 @@ const Backdrop = props => {
     props.show ? "BackdropOpen" : "BackdropClosed",
   ];
 
-  return <div className={cssClasses.join(" ")} onClick={props.hideModal}></div>;
+  return <div className={cssClasses.join(" ")} onClick={()=>props.hideModal}></div>;
 };
 
 export default Backdrop;
